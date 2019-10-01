@@ -3,9 +3,9 @@ var untangleGame = {};
 }
 
 function randWarna() {
-	var r=255*Math.random()|30,
-	    g=240*Math.random()|20,
-	    b=200*Math.random()|10;
+	var r=10*Math.random()|30,
+	    g=10*Math.random()|20,
+	    b=10*Math.random()|10;
 	return 'rgb(' + r +',' + g + ',' + b + ')';
 }
 untangleGame.drawCircle = function(x, y, radius) {
